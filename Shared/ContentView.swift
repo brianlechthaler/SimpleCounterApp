@@ -24,6 +24,7 @@ struct ContentView: View {
             Button("+1",
                    action: {counter_display += 1})
                 .padding()
+                .foregroundColor(.green)
             // This is a button to decrement the counter by 1.
             Button("-1",
                    action: {counter_display -= 1})
@@ -32,6 +33,7 @@ struct ContentView: View {
             Button("=0",
                    action: {counter_display = 0})
                 .padding()
+                .foregroundColor(.red)
         }
     }
 }

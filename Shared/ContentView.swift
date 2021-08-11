@@ -20,6 +20,9 @@ struct ContentView: View {
             // This is the display for the counter's numeric value.
             Text("\(counter_display)")
                 .padding()
+            // This is a button to increment the counter by 1.
+            Button("+1",
+                   action: {counter_display += 1})
         }
     }
 }

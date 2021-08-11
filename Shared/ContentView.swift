@@ -26,6 +26,9 @@ struct ContentView: View {
             // This is a button to decrement the counter by 1.
             Button("-1",
                    action: {counter_display -= 1})
+            // This is a button to reset the counter
+            Button("=0",
+                   action: {counter_display = 0})
         }
     }
 }
